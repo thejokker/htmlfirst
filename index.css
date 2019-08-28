@@ -1,0 +1,76 @@
+
+
+h1 {   
+    color: greenyellow;      
+    font-size: 100px ;
+}   
+ *{
+    box-sizing: border-box;
+    box-align: center;
+    padding: 0px;
+    border: 10px, lightgreen;
+} 
+p {
+    color: lightgreen;
+    /* background-color: rgba(93, 243, 223, 0.5); */
+    font-size: 20px;
+    margin: 5px,80px,5px,80px; 
+    border: 3px, 10px, 3px, 20px, red;
+}
+h2 {
+    color:lightgreen;
+    font-size: 50px;
+}
+li {
+    color:lightgreen;
+    /* background-color: rgba(93, 300, 180, 0.5); */
+    font-size: 35px;
+}
+img {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 80% ; 
+    width:10%;
+    }
+body{
+    background-image: url(spacey.gif);
+    background-size: 100%;
+    background-position: top; 
+    height: auto;
+    width: auto; 
+    /* background-color: rgba (260,200,50, 0.7) ; */
+}
+
+*{
+    text-align: center;
+}
+.center {
+    text-align: center;
+    border: 50px solid yellowgreen ;
+    
+}
+ @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+}
+.box {
+    color:white;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding:15px;
+  
+}
+  
+  .box1 { background: lightgoldenrodyellow; 
+    margin: 5px , yellow; }
+  .box2 { background: lightgoldenrodyellow;
+margin: 5px, lightgreen;
+border: 50px}
+
+.container {
+    display: flex;
+}
