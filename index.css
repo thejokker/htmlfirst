@@ -1,39 +1,71 @@
 
 
 h1 {   
-    color: greenyellow;      
-    font-size: 100px ;
+    color: rgba(10,350,200,0.65);      
+    font-size: 50px ;
+    border-bottom: 2px solid blue;
+    /* margin: 20px 400px 5px 400px; */
+    text-align: center;
 }   
+a{
+    color: (10,350,200,0.65);
+}
  *{
     box-sizing: border-box;
-    box-align: center;
+    box-flex: auto;
     padding: 0px;
     border: 10px, lightgreen;
 } 
 p {
-    color: lightgreen;
+    color: greenyellow;
     /* background-color: rgba(93, 243, 223, 0.5); */
     font-size: 20px;
-    margin: 5px,80px,5px,80px; 
-    border: 3px, 10px, 3px, 20px, red;
+    margin: 10px; 
+    padding: 2px ;
+    border: 3px, red;
 }
 h2 {
     color:lightgreen;
-    font-size: 50px;
+    font-size: 35px;
+    margin: 5px; 
+    margin-bottom: 30px;
+    text-align: center;
+    /* margin-left: 500px; */
 }
-li {
+h3 {
     color:lightgreen;
     /* background-color: rgba(93, 300, 180, 0.5); */
-    font-size: 35px;
+    font-size: 25px;
+    /* background: rgba(8, 12, 236, 0.2);*/
+    flex:auto; 
+    text-align: left;
+    padding-left: 20px;
+    /* margin: 50px; */
 }
 img {
-    display: block;
+    display:block;
+    align-items:center;
+    margin: 3px;
+    border:1px solid  lightgreen;
+    padding:10px;
+    width:auto;
+    flex: auto;
+}
+#self {
+    /* display: block; */
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     border-radius: 80% ; 
-    width:10%;
+    /* width:50%; */
     }
+
+/* .image {
+        align-items:centre;
+        border : 10px solid lightgreen;
+        margin : 5px ;
+    } */
+
 body{
     background-image: url(spacey.gif);
     background-size: 100%;
@@ -43,12 +75,17 @@ body{
     /* background-color: rgba (260,200,50, 0.7) ; */
 }
 
-*{
+/* *{
     text-align: center;
+} */
+* {
+    box-sizing: border-box;
 }
 .center {
     text-align: center;
-    border: 50px solid yellowgreen ;
+    border: 5px solid yellowgreen ;
+    margin-left: 500px;
+    margin-right: 500px;
     
 }
  @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
@@ -57,20 +94,96 @@ body{
     box-sizing: border-box;
 }
 .box {
-    color:white;
     font-size: 20px;
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: center;
-    padding:15px;
-  
+    padding:1px;
+    margin:10px;
+    flex:auto;  
 }
   
-  .box1 { background: lightgoldenrodyellow; 
-    margin: 5px , yellow; }
-  .box2 { background: lightgoldenrodyellow;
-margin: 5px, lightgreen;
-border: 50px}
+.box1 { background:rgba(20, 238, 20, 0.753); ;
+    margin: 10px;
+    border: 1px solid lightgreen;
+    flex: auto;
+    flex-direction:column;
+    /* text-align: left; */
+    }
+/* .box1 { color:blue;
+      background: lightgreen; 
+    margin: 5px ; 
+border: 10px, red} */
+  .box2 { background:rgba(8, 12, 236, 0.35); ;
+margin: 10px;
+PADDING: 15px;
+border: 2px solid blue;
+flex: auto;
+flex-direction:column;
+text-align: left;
+  }
+.box21 { background:rgba(8, 12, 236, 0.35); ;
+    margin: 10px;
+    PADDING: 15px;
+    border: 2px solid blue;
+    flex: 1;
+    flex-direction:column;
+    text-align: left;
+    }
 
+.box3 { background:rgba(8, 12, 236, 0.2); ;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: 3px rgba(8, 12, 236, 0.2);;
+    flex: auto;
+    padding: 20px;
+    text-align: center;
+    }
+    .box4 { background:rgba(19, 35, 87, 0.54); ;
+        margin-right: 140px;
+        margin-left: 140px;
+        border: 1px solid lightgreen;
+        flex: auto;
+        /* text-align: left; */
+        }
+        .box5 { background:rgba(0, 2, 7, 0.4); ;
+            margin-right: 300px;
+            margin-left: 300px;
+            border: 1px solid lightgreen;
+            flex: auto;
+            /* text-align: left; */
+            }
+            .box6 { background:rgba(0, 2, 7, 0.4);
+                border: 1px solid lightgreen;
+                flex: auto;
+                text-align: center;
+                flex-direction: column;
+                }
+                .boxp{
+                    /* background:rgba(56, 221, 233, 0.4); */
+                    border: 1px solid lightgreen;
+                    /* flex: auto;  */
+                    align-content: center;
+                    padding : 10px;
+                    flex:3;
+                    flex-direction: column;
+                    margin: 3px;
+                    }
 .container {
     display: flex;
+    /* justify-content: center; */
+    /* flex: 1; */
+    /* flex:auto; */
+}
+
+.screenshot {
+    width:100%;
+    /* align-items:center; */
+    padding:5px;
+    flex: auto;
+    align-content: center;
+}
+.screenshot1 {
+    padding:7px;
+    flex: auto;
+    width: 150%;
 }
